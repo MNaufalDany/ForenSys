@@ -1,66 +1,248 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<div align="center">
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/00/Telkom_University_Logo.png" width="180">
 
-## About Laravel
+# 🩺 ForenSys
+### Forensic Autopsy Case Management System
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+![Laravel](https://img.shields.io/badge/Laravel-12.x-FF2D20?style=for-the-badge&logo=laravel)
+![PHP](https://img.shields.io/badge/PHP-8.x-777BB4?style=for-the-badge&logo=php)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+### 🏛️ Telkom University Surabaya
+**Faculty of Industrial Engineering**  
+**Information Systems Study Program**
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+---
 
-## Learning Laravel
+### 📚 Course
+**System Testing and Implementation (IS-07-03)**
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+### 👨‍💻 Developed By
+**Group 2**
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+| Name |
+|--------|
+| Adzanil Rachmadhi Putra |
+| Reyfika Diva Ferestha |
+| Naufal Dany |
+| Other Team Members |
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+</div>
 
-## Laravel Sponsors
+---
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+# 📖 About The Project
 
-### Premium Partners
+ForenSys (Forensic System) is a web-based information system designed to support the management of forensic autopsy cases within a forensic medicine department.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+The system digitalizes and streamlines the forensic workflow, starting from case registration, doctor assignment, autopsy examination, verification, until final case closure.
 
-## Contributing
+This project was developed as part of the **System Testing and Implementation** course at **Telkom University Purwokerto**.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+---
 
-## Code of Conduct
+# 🎯 Objectives
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+- Improve forensic case management efficiency
+- Reduce manual documentation processes
+- Ensure traceability of forensic examination records
+- Support role-based workflow management
+- Provide a centralized repository for forensic case information
 
-## Security Vulnerabilities
+---
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+# ✨ Main Features
 
-## License
+## 👤 Registration Officer
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+- Create new forensic cases
+- Manage victim information
+- Upload supporting documents
+- Monitor case status
+
+## 🩺 Forensic Doctor
+
+- View assigned cases
+- Perform autopsy examination
+- Record examination findings
+- Input cause of death analysis
+- Manage toxicology requests
+
+## 🔍 Verification Process
+
+- Verify completed examinations
+- Review forensic reports
+- Approve examination results
+
+## 📁 Case Management
+
+- Search cases
+- Filter cases by status
+- View case history
+- Track workflow progress
+
+---
+
+# 🔄 System Workflow
+
+```text
+Registration
+      │
+      ▼
+Case Created
+      │
+      ▼
+Doctor Assigned
+      │
+      ▼
+Autopsy Examination
+      │
+      ▼
+Verification
+      │
+      ▼
+Case Closed
+```
+
+---
+
+# 🏗️ Technology Stack
+
+| Technology | Description |
+|------------|-------------|
+| Laravel 12 | Backend Framework |
+| PHP 8 | Programming Language |
+| MySQL | Database Management |
+| Blade | Templating Engine |
+| Tailwind CSS | User Interface Styling |
+| PHPUnit | Automated Testing |
+| Pest | Feature Testing |
+
+---
+
+# 🧪 Testing Scope
+
+The project includes:
+
+- Functional Testing
+- Feature Testing
+- Validation Testing
+- User Acceptance Testing (UAT)
+- Black Box Testing
+
+Example test scenarios:
+
+- Create Case
+- Search Case
+- Assign Doctor
+- Save Examination
+- Verify Examination
+- Close Case
+
+---
+
+# 📂 Project Structure
+
+```text
+ForenSys/
+│
+├── app/
+├── bootstrap/
+├── config/
+├── database/
+├── public/
+├── resources/
+├── routes/
+├── storage/
+├── tests/
+│
+├── composer.json
+├── package.json
+├── phpunit.xml
+└── README.md
+```
+
+---
+
+# ⚙️ Installation
+
+Clone repository:
+
+```bash
+git clone https://github.com/MNaufalDany/ForenSys.git
+```
+
+Move into project directory:
+
+```bash
+cd ForenSys
+```
+
+Install dependencies:
+
+```bash
+composer install
+npm install
+```
+
+Create environment file:
+
+```bash
+cp .env.example .env
+```
+
+Generate application key:
+
+```bash
+php artisan key:generate
+```
+
+Run migrations:
+
+```bash
+php artisan migrate
+```
+
+Start development server:
+
+```bash
+php artisan serve
+```
+
+---
+
+# 📸 System Modules
+
+- Dashboard
+- Case Registration
+- Case Assignment
+- Autopsy Examination
+- Verification
+- Case Closure
+- User Management
+- Reporting
+
+---
+
+# 🎓 Academic Information
+
+**Course:** System Testing and Implementation (IS-07-03)
+
+**Institution:** Telkom Surabaya
+
+**Academic Year:** 2025/2026
+
+---
+
+<div align="center">
+
+### 🩺 ForenSys
+### Digitalizing Forensic Case Management
+
+Developed for Academic Purposes
+
+© 2026 Telkom University Surabaya
+
+</div>
