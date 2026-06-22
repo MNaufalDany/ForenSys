@@ -24,10 +24,10 @@
 
 | Name |
 |--------|
-| Adzanil Rachmadhi Putra |
-| Reyfika Diva Ferestha |
-| Naufal Dany |
-| Other Team Members |
+| Muhammad Naufal Syamdany |
+| Alma Amanina Mujahida |
+| Mutiara Adzkia Ibadiah |
+| Masyta Gita Faradila |
 
 </div>
 
