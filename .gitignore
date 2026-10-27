@@ -21,3 +21,11 @@ yarn-error.log
 /.nova
 /.vscode
 /.zed
+.env
+.env.*
+!.env.example
+.env.docker
+forensys.sql
+build-error.txt
+
+docker-build.log
